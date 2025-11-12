@@ -1,16 +1,36 @@
+
+/* header {
+    background-image: url("assets/welcome_to_multi_cuisine.png");
+
+} */
+
+#img-banner {
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+#logo {
+    margin: 2%;
+    margin-left: 5%;
+    /* margin-bottom: 5%;
+    margin-top: 2%; */
+} *
+
 nav a:hover {
-    color: rgb(236, 33, 33);
+    color: rgb(255, 50, 50);
     
 }
 
 nav {
-    border: 1px solid rgb(174, 174, 174);
+    border: 1px solid rgb(230, 184, 181);
     margin-top: 5%;
+    width: 100%;
 }
 
 nav a {
     line-height: 150%;
-    color: darkslategray;
+    color: rgb(79, 61, 47);
     font-weight: bold;
     font-size: smaller;
     
@@ -37,16 +57,19 @@ body {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
     width: 50%;
-    padding: 5%;
+
     font-family: sans-serif;
     background-color: white;
     
-    
-    
+}
+
+main {
+    padding: 10%;
 }
 
 h1 {
     /* text-decoration: underline; */
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color : rgb(86, 86, 86);
     
@@ -64,6 +87,7 @@ footer {
     font-size: smaller;
     color: darkslategray;
     font-weight: lighter;
+    padding: 2.5%
 }
 
 html {
