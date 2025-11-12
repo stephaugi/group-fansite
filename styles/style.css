@@ -11,7 +11,7 @@ nav {
 nav a {
     line-height: 150%;
     color: darkslategray;
-    font-weight: lighter;
+    font-weight: bold;
     font-size: smaller;
     
     text-decoration: none;
@@ -26,15 +26,21 @@ nav li {
     list-style-position: center;
 }
 
+li {
+    list-style-type: circle;
+    list-style-position: center;
+}
+
 body {
     box-shadow: 1px 1px 10px #aaaaaa;
     margin: auto;
     margin-top: 2.5%;
+    margin-bottom: 2.5%;
     width: 50%;
     padding: 5%;
     font-family: sans-serif;
     background-color: white;
-
+    
     
     
 }
@@ -58,4 +64,8 @@ footer {
     font-size: smaller;
     color: darkslategray;
     font-weight: lighter;
+}
+
+html {
+    background-color: #FFE2CE;
 }
