@@ -19,15 +19,23 @@ h2 {
   color: #d35400; 
   text-align: center;
   font-family: 'Courier New', Courier, monospace;
+ 
 }
 
 p {
-  max-width: 800px;
-  margin: 10px auto;
+  max-width: 1000px;
+  margin: 2px auto;
   text-align:center;
   line-height: 150%;
   color: darkslategray;
-  font-weight: lighter;
+  font-weight:bold;
+}
+
+#logo {
+  display: block;        
+  width: 10%;            
+  height: auto;
+  margin: 2% auto 2%;    
 }
 
 header {
@@ -38,10 +46,12 @@ header {
 }
 
 header .banner img {
-  max-width: 300px;
-  height: auto;
-  margin: 10px;
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
 }
+
 
 
 nav ul {
@@ -86,8 +96,8 @@ nav ul li a:hover {
 }
 
 .food-item img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   object-fit: cover;
   border-radius: 10px;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
@@ -97,8 +107,8 @@ nav ul li a:hover {
 
 .food-item:hover img {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
-}
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+} 
 
 .food-item p {
   font-size: 0.9rem;
