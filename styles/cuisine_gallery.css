@@ -1,0 +1,130 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  background-color: white; 
+  color: #333;
+  font-size: x-large;
+  text-size-adjust: 80%;
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color : rgb(86, 86, 86);
+}
+
+h2 {
+  color: #d35400; 
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+ 
+}
+
+p {
+  max-width: 1000px;
+  margin: 2px auto;
+  text-align:center;
+  line-height: 150%;
+  color: darkslategray;
+  font-weight:bold;
+}
+
+#logo {
+  display: block;        
+  width: 10%;            
+  height: auto;
+  margin: 2% auto 2%;    
+}
+
+header {
+  background-color: white;
+  padding: 20px 0;
+  text-align: center;
+ 
+}
+
+header .banner img {
+
+    width: 100%;
+    height: auto;
+    margin-bottom: 5%;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #d35400; 
+  font-weight: bold;
+  padding: 5px 10px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #d35400;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.gallery {
+  display: grid; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px; 
+  padding: 20px;
+  align-items:start;
+  background-color: white;
+  margin-left: 10%;
+}
+
+.food-item {
+  width: 200px;
+  text-align: center;
+  transition: transform 0.2s;
+}
+
+.food-item img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  margin-bottom: 5px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.food-item:hover img {
+  transform: scale(1.05);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3); 
+} 
+
+.food-item p {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.2;
+}
+
+
+footer {
+    font-size: smaller;
+    color: darkslategray;
+    font-weight: lighter;
+    padding: 2.5%;
+    text-align: center;
+}
+
+html {
+    background-color: #FFE2CE;
+}
