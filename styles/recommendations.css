@@ -1,0 +1,74 @@
+h2 {
+    color: coral;
+}
+
+time {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: gray;
+    
+}
+
+.rec-title {
+    font-family: 'ClassicDolly';
+    font-size: 28pt;
+}
+
+.restaurant-details {
+    color: orangered;
+    font-style: oblique;
+    font-size: larger;
+}
+
+.restaurant-address {
+    font-size: small;
+}
+
+
+@font-face {
+    font-family: 'ClassicDolly';
+    src: url('/fonts/ClassicDolly.otf');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.top-dishes h3{
+    color: #f9564f;
+    text-align: center;
+    font-family: ClassicDolly;
+    font-size: x-large;
+} 
+
+.top-dishes {
+    border: 3px dotted #ffb3c6;
+    border-radius: 1em;
+    box-shadow: 0px 0px 10px #ff8fab;
+    background-color: #fff3f6;
+}
+
+.top-dishes li {
+    list-style-type: '✨';
+    padding-left: 1em;
+    line-height: 200%;
+    font-family: sans-serif;
+    font-weight: lighter
+}
+
+article {
+    border: 3px thin rgb(255, 171, 141);
+    border-radius: 1em;
+    margin-bottom: 2em;
+    padding: 1em;
+    box-shadow: 0px 0px 10px #f9564f;
+    background-color: #fffcee;
+}
+
+img:not(#logo, #img-banner) {
+    display: block;
+    width: 90%;
+    height: auto;
+    border: 1px solid pink;
+    padding: 5px;
+    border-radius: 4px;
+    margin: auto;
+    margin-top: 20px;
+}
