@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+img {
+    display: block;
+    width:80%;
+    border: 1em; 
+}
+
+section {
+    margin: 1em; 
+}
+
+
+section ul li {
+    list-style-type: square;
+    line-height: 200%;
+    color: #aaaaaa;;
+    list-style-position: inside;
+    padding-left: 2em;
+}
