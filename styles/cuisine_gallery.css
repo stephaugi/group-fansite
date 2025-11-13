@@ -83,10 +83,10 @@ nav ul li a:hover {
   display: grid; 
   grid-template-columns: repeat(3, 1fr); 
   gap: 20px; 
-  padding: 20px;
+  padding: 10px;
   align-items:start;
   background-color: white;
-  margin-left: 10%;
+  margin-left: 18%;
 }
 
 .food-item {
@@ -115,7 +115,25 @@ nav ul li a:hover {
   margin: 0;
   line-height: 1.2;
 }
+.food-item p {
+  max-width: 1000px;
+  margin: 1px ;
+  text-align:left;
+  color: darkslategray;
+  font-weight:bold;
+  font-size: 0.95rem;
+}
 
+/* .food-item p {
+  margin-top: 8px;
+  text-align: center;         /* centers the text under each image */
+  /* color: #2f4f4f;             darkslategray for good contrast */
+  /* font-weight: bold; */
+  /* font-size: 0.95rem; */
+  /* white-space: nowrap;        forces text to stay on one line */
+  /* overflow: hidden;           hides any text that doesn’t fit */
+  /* text-overflow: ellipsis;    adds "..." if text is too long */
+/* } */ */
 
 footer {
     font-size: smaller;
