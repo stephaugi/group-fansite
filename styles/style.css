@@ -68,7 +68,6 @@ main {
 }
 
 h1 {
-    /* text-decoration: underline; */
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color : rgb(86, 86, 86);
@@ -93,3 +92,5 @@ footer {
 html {
     background-color: #FFE2CE;
 }
+
+
