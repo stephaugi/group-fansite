@@ -82,12 +82,12 @@ nav ul li a:hover {
 
 #different-food-pics {
   display: grid; 
-  grid-template-columns: repeat(2, 1fr); 
-  gap: 20px; 
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 15px; 
   padding: 10px;
   align-items:start;
   background-color: white;
-  margin-left: 18%;
+  margin:auto;
 }
 
 .food-item {
@@ -122,7 +122,7 @@ nav ul li a:hover {
   text-align:left;
   color: darkslategray;
   font-weight:lighter;
-  font-size: 0.95rem;
+  font-size: 0.9;
 }
 
 /* .food-item p {
