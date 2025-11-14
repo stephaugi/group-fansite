@@ -21,11 +21,9 @@ section {
 section ul {
     line-height: 200%;
     color : rgb(86, 86, 86);
-    /* text-align:justify; */
-
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap:5px;
+    grid-template-columns: repeat(2, 1fr);
+    gap:2%;
     
 }
 
@@ -33,14 +31,13 @@ section ul li {
     list-style: none;
     background-color: white;
     border-radius: 15%;
-    padding: 1em;
+    padding: 5%;
     text-align: center;
-    color: white;
+
 }
 
 section ul li:hover {
     text-decoration: underline;
-    color: black; 
 }
 
 h3 {
