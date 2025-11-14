@@ -2,27 +2,30 @@ h2 {
     color: coral;
 }
 
-time {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: gray;
-    
-}
-
 .rec-title {
     font-family: 'ClassicDolly';
     font-size: 28pt;
+    grid-column: 1 / 3;
+    justify-self: center;
+    text-align: center;
 }
 
 .restaurant-details {
     color: orangered;
     font-style: oblique;
     font-size: larger;
+    grid-row: 2 / 3;
+    justify-self: start;
+    align-self: center;
 }
 
 .restaurant-address {
     font-size: small;
 }
 
+.rec-text {
+    grid-column: 1 / 3;
+}
 
 @font-face {
     font-family: 'ClassicDolly';
@@ -35,7 +38,6 @@ time {
     color: #f9564f;
     text-align: center;
     font-family: ClassicDolly;
-    font-size: x-large;
 } 
 
 .top-dishes {
@@ -43,6 +45,8 @@ time {
     border-radius: 1em;
     box-shadow: 0px 0px 10px #ff8fab;
     background-color: #fff3f6;
+    margin: 1em;
+    grid-column: 1 / 3;
 }
 
 .top-dishes li {
@@ -70,5 +74,10 @@ img:not(#logo, #img-banner) {
     padding: 5px;
     border-radius: 4px;
     margin: auto;
-    margin-top: 20px;
+}
+
+.recommendation {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
 }
