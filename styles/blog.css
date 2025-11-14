@@ -69,3 +69,20 @@ li {
     font-size: large;
     font-weight: 600;
 }
+
+.recipe-nav {
+    background-color: rgb(255, 200, 197);
+    border: none;
+    padding: .25rem;
+    width: 100%;
+    text-align: center;
+}
+
+.recipe-nav a:hover{
+    text-decoration: underline;
+    text-decoration-thickness: .25rem;
+    text-decoration-color: azure;
+    border-radius: 1rem;
+    
+
+}

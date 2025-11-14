@@ -1,9 +1,4 @@
 
-/* header {
-    background-image: url("assets/welcome_to_multi_cuisine.png");
-
-} */
-
 #img-banner {
     width: 100%;
     height: auto;
@@ -13,19 +8,22 @@
 #logo {
     margin: 2%;
     margin-left: 5%;
-    /* margin-bottom: 5%;
-    margin-top: 2%; */
-} *
+} 
 
 nav a:hover {
-    color: rgb(255, 50, 50);
+    color: rgb(255, 255, 255);
     
 }
 
 nav {
-    border: 1px solid rgb(230, 184, 181);
+    /* border: 1px solid rgb(230, 184, 181); */
+    background-color: rgb(230, 184, 181);
+    padding-top: .5rem;
+    padding-bottom: .5rem;
     margin-top: 5%;
     width: 100%;
+    text-align: center;
+    font-size: 1.25rem;
 }
 
 nav a {
@@ -46,17 +44,12 @@ nav li {
     list-style-position: center;
 }
 
-li {
-    list-style-type: circle;
-    list-style-position: center;
-}
-
 body {
     box-shadow: 1px 1px 10px #aaaaaa;
     margin: auto;
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-    width: 50%;
+    width: 70%;
 
     font-family: sans-serif;
     background-color: white;
@@ -91,6 +84,39 @@ footer {
 
 html {
     background-color: #FFE2CE;
+    scroll-behavior: smooth;
 }
 
+.preview-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
+.previews img {
+    height: 10rem;
+    width: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+.previews p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.previews a {
+    text-decoration: none;
+}
+
+.previews a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: .25rem;
+    text-underline-offset: .5rem;
+    text-decoration-color: rgb(255, 135, 135);
+    border-radius: 8px;
+
+}

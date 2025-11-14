@@ -85,16 +85,34 @@ nav ul li a:hover {
   grid-template-columns: repeat(2, 1fr); 
   gap: 20px; 
   padding: 10px;
-  align-items:start;
+  align-items:center;
   background-color: white;
-  margin-left: 18%;
+  /* margin-left: 18%; */
 }
 
 .food-item {
   width: 200px;
   text-align: center;
+  align-self: center;
+  justify-self: center;
   transition: transform 0.2s;
+  ;
 }
+
+/* .food-item p {
+  font-size: 0.9rem;
+  margin: 0;
+  line-height: 1.2;
+}
+.food-item p {
+  max-width: 500px;
+  margin: 1px ;
+  text-align:left;
+  color: darkslategray;
+  font-weight:lighter;
+  font-size: 0.9;
+  line-height: 1.2;
+} */
 
 .food-item img {
   width: 150px;
@@ -112,14 +130,11 @@ nav ul li a:hover {
 } 
 
 .food-item p {
-  font-size: 0.9rem;
   margin: 0;
   line-height: 1.2;
-}
-.food-item p {
   max-width: 500px;
   margin: 1px ;
-  text-align:left;
+  text-align:center;
   color: darkslategray;
   font-weight:lighter;
   font-size: 0.95rem;
