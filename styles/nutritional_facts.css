@@ -2,21 +2,53 @@ body {
     font-family: sans-serif;
 }
 
-img {
+main img {
     display: block;
-    width:80%;
+    width:100%;
     border: 1em; 
+    border-radius: 5%;
 }
 
 section {
-    margin: 1em; 
+    margin: 3%; 
+    border: 0.2em dotted rgb(255, 50, 50); 
+    background-color: rgb(230, 184, 181);
+    border-radius: 10%;
+    padding: 5%;
 }
 
+
+section ul {
+    line-height: 200%;
+    color : rgb(86, 86, 86);
+    /* text-align:justify; */
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px;
+    
+}
 
 section ul li {
-    list-style-type: square;
-    line-height: 200%;
-    color: #aaaaaa;;
-    list-style-position: inside;
-    padding-left: 2em;
+    list-style: none;
+    background-color: white;
+    border-radius: 15%;
+    padding: 1em;
+    text-align: center;
+    color: white;
 }
+
+section ul li:hover {
+    text-decoration: underline;
+    color: black; 
+}
+
+h3 {
+    color : rgb(86, 86, 86);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p {
+    padding: 1em;
+}
+
