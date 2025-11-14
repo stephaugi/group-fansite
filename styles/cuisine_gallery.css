@@ -1,4 +1,4 @@
-body {
+/* body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
@@ -7,20 +7,15 @@ body {
   color: #333;
   font-size: x-large;
   text-size-adjust: 80%;
-}
-
+} */
+/* 
 h1 {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color : rgb(86, 86, 86);
 }
 
-h2 {
-  color: #d35400; 
-  text-align: center;
-  font-family: 'Courier New', Courier, monospace;
- 
-}
+
 
 p {
   max-width: 1000px;
@@ -29,31 +24,37 @@ p {
   line-height: 150%;
   color: darkslategray;
   font-weight:bold;
-}
+} */
 
-#logo {
+/* #logo {
   display: block;        
   width: 10%;            
   height: auto;
   margin: 2% auto 2%;    
+} */
+ h2 {
+  color: #d35400; 
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+ 
 }
 
-header {
+/* header {
   background-color: white;
   padding: 20px 0;
   text-align: center;
  
-}
+} */
 
-header .banner img {
+/* header .banner img {
 
     width: 100%;
     height: auto;
     margin-bottom: 5%;
-}
+} */
 
 
-
+/* 
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -76,12 +77,12 @@ nav ul li a:hover {
   background-color: #d35400;
   color: white;
   border-radius: 5px;
-}
+} */
 
 
-.gallery {
+#different-food-pics {
   display: grid; 
-  grid-template-columns: repeat(3, 1fr); 
+  grid-template-columns: repeat(2, 1fr); 
   gap: 20px; 
   padding: 10px;
   align-items:start;
@@ -116,11 +117,11 @@ nav ul li a:hover {
   line-height: 1.2;
 }
 .food-item p {
-  max-width: 1000px;
+  max-width: 500px;
   margin: 1px ;
   text-align:left;
   color: darkslategray;
-  font-weight:bold;
+  font-weight:lighter;
   font-size: 0.95rem;
 }
 
